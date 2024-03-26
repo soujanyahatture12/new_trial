@@ -23,4 +23,7 @@ jobs:
         pip install pytest
 
     - name: Run tests
-      run: python test.py
+      run: |
+        echo "Running the test"
+        python test.py
+      
