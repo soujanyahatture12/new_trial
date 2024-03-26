@@ -23,6 +23,9 @@ jobs:
     - name: Debugging - List files
       run: ls -l
 
+    - name: Debugging - Print content of test.py
+      run: cat test.py
+
     - name: Run tests
       run: |
         echo "Running the test"
