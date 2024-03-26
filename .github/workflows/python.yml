@@ -26,4 +26,6 @@ jobs:
       run: |
         echo "Running the test"
         python test.py
-      
+
+    - name: Lets see the output
+      run: echo "$(python test.py)"
